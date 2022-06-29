@@ -1,0 +1,7 @@
+---
+- hosts: nodes
+  become: yes
+  gather_facts: False
+  roles:
+     - vsample
+
